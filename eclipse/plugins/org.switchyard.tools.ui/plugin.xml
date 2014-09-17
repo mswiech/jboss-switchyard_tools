@@ -75,6 +75,27 @@
       </index>
    </extension>
    -->
+   
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <newWizardShortcut id="org.switchyard.tools.ui.wizards.NewSwitchYardProjectWizard"/>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="*">
+         <newWizardShortcut id="org.switchyard.tools.ui.wizards.NewServiceTestWizard"/>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="*">
+         <newWizardShortcut id="org.switchyard.tools.ui.wizards.Java2WSDLWizard"/>
+      </perspectiveExtension>
+      <perspectiveExtension
+            targetID="*">
+         <newWizardShortcut id="org.switchyard.tools.ui.wizards.WSDL2JavaWizard"/>
+      </perspectiveExtension>
+   </extension>
+   
    <extension
          point="org.eclipse.wst.common.project.facet.core.presets">
       <!-- 1.0 applications -->
